@@ -76,6 +76,7 @@ with throwaway VMs, we can tell Chef to only use SSL when communicating with
 their hosted API. We do this by creating a configuration file used by chef-zero:
 
 ```bash
+root@chef-book:~# apt-get update && apt-get install vim -y
 root@chef-book:~# mkdir -p ~/.chef
 root@chef-book:~# vim ~/.chef/knife.rb
 ```
