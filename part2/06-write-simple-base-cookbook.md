@@ -631,10 +631,14 @@ Chef Client finished, 4/11 resources updated in 1.430636575 seconds
 root@chef-book:~/core#
 ```
 
-Now let's test this out.
+Now let's test this out. Answer yes, since we have to trust someone.
 
 ```bash
 root@chef-book:~/core# ssh deployer@localhost
+The authenticity of host 'localhost (127.0.0.1)' can't be established.
+ECDSA key fingerprint is 11:5d:55:29:8a:77:d8:08:b4:00:9b:a3:61:93:fe:e5.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'localhost' (ECDSA) to the list of known hosts.
 Welcome to Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com/
